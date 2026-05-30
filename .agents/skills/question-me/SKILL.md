@@ -4,7 +4,7 @@ description: Question the user relentlessly about a plan, design or idea until r
 license: Apache-2.0
 metadata:
   author: rainan16
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 Interview me relentlessly about every aspect of this plan, design or other idea until we reach a shared understanding. Walk down each branch of the design tree resolving dependencies between decisions one by one.
