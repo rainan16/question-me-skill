@@ -4,14 +4,14 @@ description: Question the user relentlessly about a plan, design or idea until r
 license: Apache-2.0
 metadata:
   author: rainan16
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 Interview me relentlessly about every aspect of this plan, design or other idea until we reach a shared understanding. Walk down each branch of the design tree resolving dependencies between decisions one by one.
 
 ## Questioning Strategy
 
-- **Intent clarification**: If you are unsure about my intent, use the [intent-refine-guide](references/intent-refine-guide.md) to clarify
+- **Intent clarification**: If you are unsure about my intent, use the `references/intent-refine-guide.md` to clarify
 - Ask **one question at a time** with multiple-choice options (A/B/C/D)
   - Add your **recommended answer**
   - Multiple-choice MANDATORY FORMAT: You must present all options as a single-select radio button list
@@ -41,8 +41,9 @@ Interview me relentlessly about every aspect of this plan, design or other idea 
 
 ## Output
 
-Save in a new, structured markdown file containing:
+Save in a new, structured markdown. Use the template at `references/intent_decisions_answers.md` as your starting point. Adapt it if needed. Every `intent_decisions_answers.md` MUST include these sections:
+
 - **Refined intent** — clear statement of what the user wants
-- **Key decisions** — choices made during questioning
+- **Key decisions** — choices made during questioning, including important key facts
 - **Open questions** — anything still unresolved
-- **Suggested next steps** — how to proceed
+- **Suggested next steps** — high level overview on how to proceed
