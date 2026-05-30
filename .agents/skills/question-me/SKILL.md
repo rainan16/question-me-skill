@@ -7,25 +7,25 @@ metadata:
   version: "1.0.0"
 ---
 
-Interview me relentlessly about every aspect of this plan, design or other idea until
-we reach a shared understanding. Walk down each branch of the design tree resolving dependencies between decisions one by one.
+Interview me relentlessly about every aspect of this plan, design or other idea until we reach a shared understanding. Walk down each branch of the design tree resolving dependencies between decisions one by one.
 
 ## Questioning Strategy
 
-- **Intent clarification**: If unsure about my intent in general (Example Request: *"I want to add a feature."*), use the [intent-refine-guide](references/intent-refine-guide.md) to clarify my intent upfront. Then start questioning.
-- Ask **one question at a time** with multiple-choice options (A/B/C/D) and your **recommended answer**
-- Keep questions focused and structured to accelerate convergence
+- **Intent clarification**: If you are unsure about my intent, use the [intent-refine-guide](references/intent-refine-guide.md) to clarify
+- Ask **one question at a time** with multiple-choice options (A/B/C/D)
+  - Add your **recommended answer**
+  - Multiple-choice MANDATORY FORMAT: You must present all options as a single-select radio button list
 
 ## Framework
 
 - **Adaptive** — infer which dimensions matter based on my input and context
 - Start with what's most critical to the idea, then branch into dependencies
 - Do not force a fixed checklist; let the conversation flow naturally
+- Keep questions focused and structured to accelerate convergence
 
 ## Handling Answers
 
 - **Flag inconsistencies** with previous answers — challenge contradictions directly
-- This is a conversation, not a one-shot analysis. 
 - Iterate as needed.
 
 ## Tone
@@ -37,11 +37,11 @@ we reach a shared understanding. Walk down each branch of the design tree resolv
 
 - Drive questioning until you are satisfied nothing critical is ambiguous
 - I can always end early by saying something like "abort" or "I'm done"
-- When questioning is complete, produce the structured output below
+- When questioning is complete, produce the structured `Output` below
 
 ## Output
 
-Produce a structured markdown file containing:
+Save in a new, structured markdown file containing:
 - **Refined intent** — clear statement of what the user wants
 - **Key decisions** — choices made during questioning
 - **Open questions** — anything still unresolved
